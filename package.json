@@ -20,7 +20,7 @@
     "glob": "~5.0.15",
     "lodash": "~4.17.5",
     "rss": "~1.0",
-    "superagent": "~3.7.0",
+    "superagent": "~3.8.1",
     "tarball-extract": "~0.0",
     "uglify-js": "~2.6.0",
     "underscore": "~1",
