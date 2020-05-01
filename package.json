@@ -10,7 +10,9 @@
   },
   "scripts": {
     "build": "./build/build.js",
-    "test": "vows"
+    "test": "vows",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "~0.9",
@@ -25,7 +27,8 @@
     "uglify-js": "~2.6.0",
     "underscore": "~1",
     "node-hipchat": "~0.4",
-    "colors": "~1.0"
+    "colors": "~1.0",
+    "snyk": "^*"
   },
   "devDependencies": {
     "jslint": "~0.6.2",
@@ -35,5 +38,6 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "snyk": true
 }
